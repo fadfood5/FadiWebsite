@@ -1,0 +1,16 @@
+nav{
+    background-color: #59a8ee;
+}
+
+.projectTitle{
+    margin-bottom: 2rem !important;
+}
+
+.grayOut{
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.card-text{
+    padding-bottom: 1rem;
+}
