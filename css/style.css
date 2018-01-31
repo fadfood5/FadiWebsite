@@ -1,23 +1,45 @@
 nav{
     background-color: #59a8ee;
 }
-
 .projectTitle{
     margin-bottom: 2rem !important;
 }
-
 .grayOut{
     opacity: 0.4;
     filter: alpha(opacity=40);
 }
-
 .card-text{
     padding-bottom: 1rem;
 }
-
 .list{
     text-align: left !important;
     list-style: square !important;
 }
-
 .Qypsys{}
+.arrow {
+    text-align: center;
+    margin: 4% 0;
+    bottom: 5;
+}
+.arrow a{
+    color: lightgrey;
+}
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+.resumeDownload{
+    margin-bottom: 30px;
+}

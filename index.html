@@ -6,19 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Fadi Bitar</title>
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/fullPage.min.css"/>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/typeit.min.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
         <a class="navbar-brand" href="#">Fadi</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -32,15 +30,38 @@
                 </li>
             </ul>
         </div>
-    </nav>
+    </nav> -->
     <div id="fullpage">
             <div class="section">
                 <div class="flex-center flex-column">
                     <img src='img/fadi.png' class='rounded-circle' style='width: 200px; height: 200px;'>
                     </br>
-                    <h1 class="animated fadeIn mb-4">Fadi Bitar</h1>
-                    <h5 class="animated fadeIn mb-4" style='font-weight: bold;'>SITE IS STILL UNDER CONSTRUCTION</h5>
-                    <p class="animated fadeIn text-muted">Let's make something...</p>
+                    <h1 style="display:inline-block;" class="animated fadeIn mb-4 h1-responsive typeName"></h1>
+                    <script>
+                        $('.typeName').typeIt({
+                            strings: ["Fadi Bitar"],
+                            speed: 120,
+                            breakLines: false,
+                            autoStart: true,
+                            loop: false,
+                        });
+                    </script>
+                    <h6 class="h6-responsive animated fadeIn mb-4 typeTitle"></h6>
+                    <script>
+                        $('.typeTitle').typeIt({
+                            strings: ["Software Engineer"],
+                            speed: 90,
+                            breakLines: false,
+                            autoStart: true,
+                            loop: false
+                        }).pause(100).type('Software Engineer');
+                    </script>
+                    <a href="FadiResume.pdf" download="FadiBitarResume" class="resumeDownload">
+                            <button type="button" class="btn btn-default">Download Resume</button>
+                    </a>
+                    <div class="arrow bounce">
+                        <a class="fa fa-arrow-down fa-2x" href="#"></a>
+                    </div>
                 </div>
             </div>
             <div class="section">
