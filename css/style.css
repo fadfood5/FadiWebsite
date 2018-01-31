@@ -14,3 +14,10 @@ nav{
 .card-text{
     padding-bottom: 1rem;
 }
+
+.list{
+    text-align: left !important;
+    list-style: square !important;
+}
+
+.Qypsys{}
