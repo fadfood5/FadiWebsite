@@ -31,34 +31,48 @@
             </ul>
         </div>
     </nav> -->
+    <nav class="navbar fixed-top navbar-light">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <ul class="navbar-nav mr-auto">
+            <!-- <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li> -->
+        </ul>
+        <a class="navbar-brand" href="https://github.com/fadfood5" target="_blank">
+            <img src="img/github.png" height="30">
+        </a>
+    </nav>
     <div id="fullpage">
             <div class="section">
                 <div class="flex-center flex-column">
-                    <img src='img/fadi.png' class='rounded-circle' style='width: 200px; height: 200px;'>
-                    </br>
-                    <h1 style="display:inline-block;" class="animated fadeIn mb-4 h1-responsive typeName"></h1>
-                    <script>
-                        $('.typeName').typeIt({
-                            strings: ["Fadi Bitar"],
-                            speed: 120,
-                            breakLines: false,
-                            autoStart: true,
-                            loop: false,
-                        });
-                    </script>
-                    <h6 class="h6-responsive animated fadeIn mb-4 typeTitle"></h6>
-                    <script>
-                        $('.typeTitle').typeIt({
-                            strings: ["Software Engineer"],
-                            speed: 90,
-                            breakLines: false,
-                            autoStart: true,
-                            loop: false
-                        }).pause(100).type('Software Engineer');
-                    </script>
-                    <a href="FadiResume.pdf" download="FadiBitarResume" class="resumeDownload">
-                            <button type="button" class="btn btn-default">Download Resume</button>
-                    </a>
+                    <div class="card">
+                        <div class="card-body">
+                                <img src='img/fadi.png' class='rounded-circle myAvatar'>
+                                <h1 class="animated fadeIn mb-4 h1-responsive typeName text-center"></h1>
+                                <script>
+                                    $('.typeName').typeIt({
+                                        strings: ["Fadi Bitar"],
+                                        speed: 120,
+                                        breakLines: false,
+                                        autoStart: true,
+                                        loop: false,
+                                    });
+                                </script>
+                                <h6 class="h6-responsive animated fadeIn mb-4 typeTitle text-center"></h6>
+                                <script>
+                                    $('.typeTitle').typeIt({
+                                        strings: ["Software Engineer"],
+                                        speed: 90,
+                                        breakLines: false,
+                                        autoStart: true,
+                                        loop: false
+                                    }).pause(100).type('Software Engineer');
+                                </script>
+                                <a href="FadiResume.pdf" download="FadiBitarResume" class="resumeDownload">
+                                        <button type="button" class="btn btn-default">Download Resume</button>
+                                </a>
+                        </div>
+                    </div>
                     <div class="arrow bounce">
                         <a class="fa fa-arrow-down fa-2x" href="#"></a>
                     </div>
@@ -162,10 +176,12 @@
     <script type="text/javascript" src="js/fullPage.min.js"></script>
     <script type='text/javascript'>
     $(document).ready(function() {
-        $('#fullpage').fullpage({
-            anchors: ['about', 'experience', 'projects', 'education'],
-            // sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
-        });
+        if($(window).width() > 800){
+            $('#fullpage').fullpage({
+                anchors: ['about', 'experience', 'projects', 'education'],
+                // sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
+            });
+        }
     });
     </script>
 </body>

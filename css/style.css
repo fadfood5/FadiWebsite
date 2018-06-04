@@ -1,6 +1,7 @@
 nav{
-    background-color: #59a8ee;
+    background-color:#FFF;
 }
+
 .projectTitle{
     margin-bottom: 2rem !important;
 }
@@ -15,7 +16,6 @@ nav{
     text-align: left !important;
     list-style: square !important;
 }
-.Qypsys{}
 .arrow {
     text-align: center;
     margin: 4% 0;
@@ -42,4 +42,10 @@ nav{
 }
 .resumeDownload{
     margin-bottom: 30px;
+}
+
+.myAvatar{
+    width:200px;
+    height:200px;
+    padding:20px;
 }
