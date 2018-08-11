@@ -7,10 +7,11 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Fadi Bitar</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/mdb.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/fullPage.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/fullPage.min.css" />
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/typeit.min.js"></script>
 </head>
@@ -43,126 +44,143 @@
         </a>
     </nav>
     <div id="fullpage">
-            <div class="section">
-                <div class="flex-center flex-column">
+        <div class="section">
+            <div class="flex-center flex-column" style="padding-top: 100px;">
+                <div class="card">
+                    <div class="card-body">
+                        <img src='img/fadi.png' class='rounded-circle myAvatar'>
+                        <h1 class="animated fadeIn mb-4 h1-responsive typeName text-center"></h1>
+                        <script>
+                            $('.typeName').typeIt({
+                                strings: ["Fadi Bitar"],
+                                speed: 120,
+                                breakLines: false,
+                                autoStart: true,
+                                loop: false,
+                            });
+                        </script>
+                        <h6 class="h6-responsive animated fadeIn mb-4 typeTitle text-center"></h6>
+                        <script>
+                            $('.typeTitle').typeIt({
+                                strings: ["Software Engineer"],
+                                speed: 90,
+                                breakLines: false,
+                                autoStart: true,
+                                loop: false
+                            }).pause(100).type('Software Engineer');
+                        </script>
+                        <a href="FadiResume.pdf" download="FadiBitarResume" class="resumeDownload">
+                            <button type="button" class="btn btn-default">Download Resume</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="arrow bounce">
+                    <a class="fa fa-arrow-down fa-2x" href="#"></a>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="flex-center flex-column">
+                <h1 class="animated fadeIn sectionTitle">Experience</h1>
+                <div class='row container'>
+                    <div class="col-md-6 pad">
+                        <div class="row">
+                            <img id="BosonImg" class="mx-auto img-fluid cardImage" src="img/boson.png" alt="Boson Software" />
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Software Engineer</h3>
+                            <h5 class="card-title text-center">Boson Software</h5>
+                            <h6 class="card-title text-center">April 2018 - Current</h6>
+
+                            <p class="card-text text-center">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pad">
+                        <img class="img-fluid cardImage" src="img/leapdoctor.png" alt="Leapdoctor">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Software Developer</h3>
+                            <h5 class="card-title text-center">Leapdoctor.com</h5>
+                            <h6 class="card-title text-center">​September 2016 - February 2018</h6>
+
+                            <p class="card-text text-center">
+                                <ul class="list">
+                                    <li class="">Developed a web based communication application for hospitals that cuts time spent on
+                                        phone.
+                                    </li>
+                                    <li class="">Built with Node, VueJS, Socket.IO, and Twilio API at leapcaller.com</li>
+                                    <li class="">Developed a real time application that facilitates priority based shift scheduling for
+                                        hospital staff.</li>
+                                    <li class="">Provided a real-time automated scheduling system with MeteorJS, AngularJS, and MongoDB.</li>
+                                    <li class="">Designed and published hybrid mobile apps to Android and iOS using Ionic and XCode.</li>
+                                    <li class="">Facilitated deployment using Amazon Web Services such as EC2.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="flex-center flex-column pad">
+                <h1 class="animated fadeIn sectionTitle">Projects</h1>
+                <h1 class="animated fadeIn mb-4">Still Under Construction</h4>
+                <!-- <div class='row container'>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <img class="mx-auto img-fluid cardImage" src="img/quip.png" alt="Quip">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Quip</h2>
+                            <p class="card-text text-center">A website with a google maps directory to buildings at the Tampa campus of the University of
+                                South Florida.</p>
+                            <div class="flex-center">
+                                <a href="http://quipapp.us" target="_blank">
+                                    <img class='grayOut' src='img/link.png' , style='width: 50px; height: 50px; margin-right: 15px;'>
+                                </a>
+                                <a href="https://github.com/fadfood5/QuipAppUSF" target="_blank">
+                                    <img class='grayOut' src='img/github.png' , style='width: 50px; height: 50px;'>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="section">
+            <div class="flex-center flex-column">
+                <h1 class="animated fadeIn sectionTitle">Education</h1>
+                <h1 class="animated fadeIn mb-4">University of South Florida 2014-2018</h1>
+                <h1 class="animated fadeIn mb-4">B.S. in Computer Science</h4>
+            </div>
+        </div>
+        <div class="section">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
                     <div class="card">
                         <div class="card-body">
-                                <img src='img/fadi.png' class='rounded-circle myAvatar'>
-                                <h1 class="animated fadeIn mb-4 h1-responsive typeName text-center"></h1>
-                                <script>
-                                    $('.typeName').typeIt({
-                                        strings: ["Fadi Bitar"],
-                                        speed: 120,
-                                        breakLines: false,
-                                        autoStart: true,
-                                        loop: false,
-                                    });
-                                </script>
-                                <h6 class="h6-responsive animated fadeIn mb-4 typeTitle text-center"></h6>
-                                <script>
-                                    $('.typeTitle').typeIt({
-                                        strings: ["Software Engineer"],
-                                        speed: 90,
-                                        breakLines: false,
-                                        autoStart: true,
-                                        loop: false
-                                    }).pause(100).type('Software Engineer');
-                                </script>
-                                <a href="FadiResume.pdf" download="FadiBitarResume" class="resumeDownload">
-                                        <button type="button" class="btn btn-default">Download Resume</button>
-                                </a>
+                            <form class="text-center p-5">
+
+                                <p class="h4 mb-4">Contact Me</p>
+
+                                <!-- Email -->
+                                <input type="email" id="contactEmail" class="form-control mb-4" placeholder="E-mail">
+
+                                <!-- Password -->
+                                <input type="text" id="contactName" class="form-control mb-4" placeholder="Name">
+
+                                <!-- Message -->
+                                <textarea type="text" id="contactMessage" class="form-control mb-4" placeholder="Message" rows="12" maxlength="300"></textarea>
+
+                                <!-- Sign in button -->
+                                <button class="btn btn-info btn-block disabled my-4" type="submit">Still Under Construction</button>
+
+                            </form>
                         </div>
-                    </div>
-                    <div class="arrow bounce">
-                        <a class="fa fa-arrow-down fa-2x" href="#"></a>
                     </div>
                 </div>
             </div>
-            <div class="section">
-                    <div class="flex-center flex-column">
-                            <h1 class="animated fadeIn projectTitle">Experience</h1>
-                            <div class='row container'>
-                                <div class="col-md-6">
-                                    <img class="img-fluid cardImage" src="img/leapdoctor.png" alt="Leapdoctor">
-                                    <div class="card-body">
-                                        <h3 class="card-title text-center">Software Developer - Leapdoctor.com</h3>
-                                        
-                                        <p class="card-text text-center">
-                                            <ul class="list">
-                                                <li class="">Developed a web based communication application for hospitals that cuts time spent on phone.</li>
-                                                <li class="">Built with Node, VueJS, Socket.IO, and Twilio API at leapcaller.com</li>
-                                                <li class="">Developed a real time application that facilitates priority based shift scheduling for hospital staff.</li>
-                                                <li class="">Provided a real-time automated scheduling system with MeteorJS, AngularJS, and MongoDB.</li>
-                                                <li class="">Designed and published hybrid mobile apps to Android and iOS using Ionic and XCode.</li>
-                                                <li class="">Facilitated deployment using Amazon Web Services such as EC2.</li>
-                                            </ul>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <img class="img-fluid cardImage Qypsys" src="img/qypsys.png" alt="Qypsys">
-                                    <div class="card-body">
-                                        <h3 class="card-title text-center">Web Developer - Qypsys</h3>
-                                        <p class="card-text">
-                                            <ul class="list">
-                                                <li class="">Developed a web based communication application for hospitals that cuts time spent on phone.</li>
-                                                <li class="">Built with Node, VueJS, Socket.IO, and Twilio API at leapcaller.com</li>
-                                                <li class="">Developed a real time application that facilitates priority based shift scheduling for hospital staff.</li>
-                                                <li class="">Provided a real-time automated scheduling system with MeteorJS, AngularJS, and MongoDB.</li>
-                                                <li class="">Designed and published hybrid mobile apps to Android and iOS using Ionic and XCode.</li>
-                                                <li class="">Facilitated deployment using Amazon Web Services such as EC2.</li>
-                                            </ul>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-            </div>
-            <div class="section">
-                <div class="flex-center flex-column">
-                        <h1 class="animated fadeIn projectTitle">Projects</h1>
-                        <div class='row container'>
-                            <div class="col-md-4">
-                                <img class="img-fluid cardImage" src="img/edibull.png" alt="Edibull">
-                                <div class="card-body">
-                                    <h2 class="card-title text-center">Edibull</h2>
-                                    <p class="card-text text-center">A web application that displays student organization events with free food at the University of South Florida</p>
-                                    <div class="flex-center flex-column">
-                                        <a href="https://tinyurl.com/y7xoaf87" target="_blank"><img class='grayOut' src='img/link.png', style='width: 50px; height: 50px;'></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <img class="img-fluid cardImage" src="img/quip.png" alt="Quip">
-                                <div class="card-body">
-                                    <h2 class="card-title text-center">Quip</h2>
-                                    <p class="card-text">A website with a google maps directory to buildings at the Tampa campus of the University of South Florida.</p>
-                                    <div class="flex-center">
-                                        <a href="http://quipapp.us" target="_blank"><img class='grayOut' src='img/link.png', style='width: 50px; height: 50px; margin-right: 15px;'></a>
-                                        <a href="https://github.com/fadfood5/QuipAppUSF" target="_blank"><img class='grayOut' src='img/github.png', style='width: 50px; height: 50px;'></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <img class="img-fluid" src="img/planeText.png" alt="PlaneText">
-                                <div class="card-body">
-                                    <h2 class="card-title text-center">PlaneText</h2>
-                                    <p class="card-text">A prototype that facilitates translation and communication functions between airport tower control and pilots.</p>
-                                    <div class="flex-center">
-                                            <a href="http://planetext.webflow.io" target="_blank"><img class='grayOut' src='img/link.png', style='width: 50px; height: 50px; margin-right: 15px;'></a>
-                                        <a href="https://github.com/fadfood5/PlaneText" target="_blank"><img class='grayOut' src='img/github.png', style='width: 50px; height: 50px;'></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div class="section">
-                <div class="flex-center flex-column">
-                    <h1 class="animated fadeIn mb-4">University of South Florida 2014-2018</h1>
-                    <h1 class="animated fadeIn mb-4">B.S. in Computer Science</h4>
-                </div>
-            </div>
+        </div>
     </div>
     <!-- SCRIPTS -->
     <!-- JQuery -->
@@ -175,14 +193,14 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <script type="text/javascript" src="js/fullPage.min.js"></script>
     <script type='text/javascript'>
-    $(document).ready(function() {
-        if($(window).width() > 800){
-            $('#fullpage').fullpage({
-                anchors: ['about', 'experience', 'projects', 'education'],
-                // sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
-            });
-        }
-    });
+        $(document).ready(function () {
+            if ($(window).width() > 800) {
+                $('#fullpage').fullpage({
+                    anchors: ['about', 'experience', 'projects', 'education', 'contact'],
+                    // sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
+                });
+            }
+        });
     </script>
 </body>
 
