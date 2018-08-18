@@ -4,13 +4,20 @@ body{
 }
 
 nav {
-    background-color: #FFF;
+    background-color: #3bb5a5;
+    color: white;
+    z-index: 10;
 }
 
 .sectionTitle {
     margin-bottom: 2rem !important;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #999;
+    padding: 30px;
+    text-align: left !important;
+    font-size: 3em;
+    background-color: #3bb5a5;
+    color: #FFF;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .grayOut {
@@ -81,4 +88,17 @@ textarea {
 
 .pad{
     padding-bottom: 30px;
+}
+
+.padSmall{
+    padding-bottom: 10px;
+}
+
+/* Text */
+.textDesc{
+    line-height: 2em;
+}
+
+.section{
+    height: 100vh;
 }
