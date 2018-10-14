@@ -29,6 +29,11 @@ nav {
     padding-bottom: 1rem;
 }
 
+h1.card-title {
+    color: #000;
+    margin-bottom: 10px;
+}
+
 .list {
     text-align: left !important;
     list-style: square !important;
