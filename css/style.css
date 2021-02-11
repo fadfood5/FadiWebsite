@@ -9,10 +9,6 @@ nav {
     z-index: 10;
 }
 
-h3.card-title{
-    color: #999;
-}
-
 .sectionTitle {
     margin-bottom: 2rem !important;
     border-bottom: 1px solid #000;
@@ -35,6 +31,14 @@ h3.card-title{
 h1.card-title {
     color: #000;
     margin-bottom: 10px;
+}
+
+h3.card-title{
+    color: #999;
+}
+
+h6.card-title{
+    color: #999;
 }
 
 .list {
