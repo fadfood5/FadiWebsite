@@ -9,6 +9,14 @@ nav {
     z-index: 10;
 }
 
+#LandingSection{
+    height: 100vh;
+}
+
+#ExperienceSection{
+    height: 90vh;
+}
+
 .sectionTitle {
     border-bottom: 1px solid #000;
     color: #000;
