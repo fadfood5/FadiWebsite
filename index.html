@@ -27,209 +27,253 @@
             <img src="img/github.png" height="30">
         </a>
     </nav> -->
-    <div id="fullpage">
-        <div id="LandingSection" class="section">
-            <div class="flex-center flex-column" style="padding-top: 100px;">
-                <div class="card">
-                    <div class="card-body">
-                        <img src='img/fadi.png' class='rounded-circle myAvatar'>
-                        <h1 class="animated fadeIn mb-4 h1-responsive typeName text-center"></h1>
-                        <script>
-                            $('.typeName').typeIt({
-                                strings: ["Fadi Bitar"],
-                                speed: 120,
-                                breakLines: false,
-                                autoStart: true,
-                                loop: false,
-                            });
-                        </script>
-                        <h6 class="h6-responsive animated fadeIn mb-4 typeTitle text-center"></h6>
-                        <script>
-                            $('.typeTitle').typeIt({
-                                strings: ["Software Engineer"],
-                                speed: 90,
-                                breakLines: false,
-                                autoStart: true,
-                                loop: false
-                            });
-                        </script>
-                        <a href="FadiResume.pdf" download="FadiBitarResume" class="resumeDownload">
-                            <button type="button" class="btn btn-default">Download Resume</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="arrow bounce">
-                    <a class="fa fa-arrow-down fa-2x" href="#"></a>
-                </div>
-            </div>
-        </div>
-        <div id="ExperienceSection" class="section">
-            <div class="flex-column">
-                <!-- <div class="flex-center">
-                    <div class='row'>
-                        <h1 class="animated fadeIn sectionTitle">Experience</h1>
-                    </div>
-                </div> -->
-                <div class="flex-center">
-                    <div class='row container'>
-                        <div class="col-lg-4">
-                            <!-- <div class="row">
-                                <img id="BosonImg" class="mx-auto img-fluid cardImage" src="img/boson.png" alt="Boson Software" />
-                            </div> -->
+    <div id="Home">
+        <div class="row">
+            <div class="col-lg-4 col-xl-3">
+                <section id="LandingSection">
+                    <div class="flex-center flex-column">
+                        <div class="card">
                             <div class="card-body">
-                                <h1 class="card-title text-center">Boson Software</h1>
-                                <h3 class="card-title text-center">Software Engineer</h3>
-                                <h5 class="card-title text-center">Full Time</h5>
-                                <h6 class="card-title text-center">April 2018 - Current</h6>
-                                <p class="card-text text-center">
-                                    <ul class="list">
-                                        <li>Implemented mobile responsiveness to .NET web forms e-commerce application.</li>
-                                        <li>Designed and built responsive components while solving various user interface challenges.</li>
-                                        <li>Updated the style and look of various web applications using customized Bootstrap and CSS.</li>
-                                        <li>Created a Video tutorial interface using Dacast Player and Content Management API in addition to features such as progress tracking.</li>
-                                        <li>Automated compilation of scripts and styles to ensure they are production-ready.</li>
-                                        <li>Improved checkout system by decreasing and enhancing the necessary steps of the sale process.</li>
-                                        <li>Actively used and improved C#, Javascript, jQuery, Angular, Bootstrap, HTML, and CSS internal practices.</li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <!-- <img class="img-fluid cardImage" src="img/leapdoctor.png" alt="Leapdoctor"> -->
-                            <div class="card-body">
-                                <h1 class="card-title text-center">Leapdoctor</h1>
-                                <h3 class="card-title text-center">Software Developer</h3>
-                                <h5 class="card-title text-center">Part Time</h5>
-                                <h6 class="card-title text-center">​September 2016 - February 2018</h6>
-
-                                <p class="card-text text-center">
-                                    <ul class="list">
-                                        <li>Developed a web based communication application.</li>
-                                        <li>Built with Node, VueJS, Socket.IO, and Twilio API</li>
-                                        <li>Developed a real time application that facilitates priority based shift scheduling for staff.</li>
-                                        <li>Provided a real-time automated scheduling system with MeteorJS, AngularJS, and MongoDB using 3-way binding.</li>
-                                        <li>Designed and published hybrid mobile apps to Android and iOS using Ionic and XCode.</li>
-                                        <li>Facilitated deployment using Amazon Web Services such as EC2.</li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <!-- <img class="img-fluid cardImage" src="img/leapdoctor.png" alt="Leapdoctor"> -->
-                            <div class="card-body">
-                                <h1 class="card-title text-center">Qypsys</h1>
-                                <h3 class="card-title text-center">Web Developer</h3>
-                                <h5 class="card-title text-center">Contractor</h5>
-                                <h6 class="card-title text-center">​July 2017 - December 2017</h6>
-
-                                <p class="card-text text-center">
-                                    <ul class="list">
-                                        <li>Created a landing site marketing the company's IT services.</li>
-                                        <li>Developed using Express, Angular, Pug, Bootstrap, and Material Bootstrap.</li>
-                                        <li>Deployed using DigitalOcean.</li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--
-        <div class="section">
-            <div class="flex-column">
-                <div class="flex-center">
-                    <div class='row container'>
-                        <h1 class="animated fadeIn sectionTitle">Projects</h1>
-                    </div>
-                </div>
-                <div class="flex-center">
-                    <div class='row container pad'>
-                        <div class="col-md-4 offset-md-4">
-                            <div class="row">
-                                <img class="mx-auto img-fluid cardImage" src="img/quip.png" alt="Quip">
-                            </div>
-                            <div class="row">
-                                <div class="mx-auto">
-                                    <h2 class="card-title text-center">Quip</h2>
-                                </div>
-                            </div>
-                            <div class="row padSmall">
-                                <p class="card-text text-center textDesc">A compact google maps directory to buildings at the Tampa campus of the University of
-                                    South Florida.</p>
-                            </div>
-                            <div class="row padSmall">
-                                <div class="btn-group mx-auto" role="group">
-                                    <a href="https://fadfood5.github.io/QuipAppUSF/" target="_blank" class="btn btn-default" style="font-size: 1.5rem;">
-                                        Try it out
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="flex-column">
-                <div class="flex-center">
-                    <div class="row container">
-                        <h1 class="animated fadeIn sectionTitle">Education</h1>
-                    </div>
-                </div>
-                <div class="flex-center">
-                    <div class="row">
-                        <h1 class="animated fadeIn mb-4">University of South Florida 2014-2018</h1>
-                    </div>
-                    <div class="row">
-                        <h1 class="animated fadeIn mb-4">B.S. in Computer Science</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="row">
-                <div class="col-md-3 offset-md-4">
-                    <a href="mailto: fadibitar@mail.usf.edu">
-                        <button type="button" class="btn btn-info">E-mail me</button>
-                    </a>
-                    <a href="FadiResume.pdf" download="FadiBitarResume" class="resumeDownload">
-                        <button type="button" class="btn btn-default">Download Resume</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-        -->
-        <!--
-        <div class="section">
-            <div class="row">
-                <div class="col-md-6 offset-md-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <form class="text-center p-5">
-
-                                <p class="h4 mb-4">Contact Me</p>
-                                <input type="email" id="contactEmail" class="form-control mb-4" placeholder="E-mail" disabled>
-                                <input type="text" id="contactName" class="form-control mb-4" placeholder="Name" disabled>
-                                <textarea type="text" id="contactMessage" class="form-control mb-4" disabled placeholder="Message" rows="12" maxlength="300"></textarea>
-                                <a>
-                                    <button type="button" class="btn btn-info disabled">Still Under Construction</button>
-                                </a>
+                                <img src='img/fadi.png' class='rounded-circle myAvatar'>
+                                <h1 class="animated fadeIn mb-4 h1-responsive typeName text-center"></h1>
+                                <script>
+                                    $('.typeName').typeIt({
+                                        strings: ["Fadi Bitar"],
+                                        speed: 120,
+                                        breakLines: false,
+                                        autoStart: true,
+                                        loop: false,
+                                    });
+                                </script>
+                                <h6 class="h6-responsive animated fadeIn mb-4 typeTitle text-center"></h6>
+                                <script>
+                                    $('.typeTitle').typeIt({
+                                        strings: ["Software Engineer"],
+                                        speed: 90,
+                                        breakLines: false,
+                                        autoStart: true,
+                                        loop: false
+                                    });
+                                </script>
                                 <a href="FadiResume.pdf" download="FadiBitarResume" class="resumeDownload">
                                     <button type="button" class="btn btn-default">Download Resume</button>
                                 </a>
-
-                            </form>
+                            </div>
+                        </div>
+                        <div class="arrow bounce d-lg-none">
+                            <a class="fa fa-arrow-down fa-2x" href="#"></a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-lg-8 col-xl-9">
+                <section id="ExperienceCards">
+                    <div class="container">
+                        <div class="row">
+                            <h2>Experience</h2>
+                            <hr width="100%">
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <a type="button" data-toggle="modal" data-target="#BosonModal">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h3 class="card-title text-center">Boson</h3>
+                                            <h5 class="card-title text-center">Software Engineer</h5>
+                                            <h6 class="card-title text-center">Apr 2018 - Current</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Modal Boson -->
+                            <div class="modal fade" id="BosonModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h2 class="card-title text-center">Boson Software</h2>
+                                            <h3 class="card-title text-center">Software Engineer</h3>
+                                            <h5 class="card-title text-center">Full Time</h5>
+                                            <h6 class="card-title text-center">April 2018 - Current</h6>
+                                            
+                                            <p class="card-text text-center">
+                                                <ul class="list">
+                                                    <li>Implemented mobile responsiveness to .NET web forms e-commerce application.
+                                                    </li>
+                                                    <li>Designed and built responsive components while solving various user
+                                                        interface challenges.</li>
+                                                    <li>Updated the style and look of various web applications using customized
+                                                        Bootstrap and CSS.</li>
+                                                    <li>Created a Video tutorial interface using Dacast Player and Content
+                                                        Management API in addition to features such as progress tracking.</li>
+                                                    <li>Automated compilation of scripts and styles to ensure they are
+                                                        production-ready.</li>
+                                                    <li>Improved checkout system by decreasing and enhancing the necessary steps of
+                                                        the sale process.</li>
+                                                    <li>Actively used and improved C#, Javascript, jQuery, Angular, Bootstrap, HTML,
+                                                        and CSS internal practices.</li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.linkedin.com/in/fadib/" target="_blank" type="button" class="btn btn-default">Contact me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <a type="button" data-toggle="modal" data-target="#LeapdoctorModal">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h3 class="card-title text-center">Leapdoctor</h3>
+                                            <h5 class="card-title text-center">Software Developer</h5>
+                                            <h6 class="card-title text-center">​Sept 2016 - Feb 2018</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Modal Leapdoctor -->
+                            <div class="modal fade" id="LeapdoctorModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h2 class="card-title text-center">Leapdoctor</h2>
+                                            <h3 class="card-title text-center">Software Developer</h3>
+                                            <h5 class="card-title text-center">Part Time</h5>
+                                            <h6 class="card-title text-center">​September 2016 - February 2018</h6>
+            
+                                            <p class="card-text text-center">
+                                                <ul class="list">
+                                                    <li>Developed a web based communication application.</li>
+                                                    <li>Built with Node, VueJS, Socket.IO, and Twilio API</li>
+                                                    <li>Developed a real time application that facilitates priority based shift
+                                                        scheduling for staff.</li>
+                                                    <li>Provided a real-time automated scheduling system with MeteorJS, AngularJS,
+                                                        and MongoDB using 3-way binding.</li>
+                                                    <li>Designed and published hybrid mobile apps to Android and iOS using Ionic and
+                                                        XCode.</li>
+                                                    <li>Facilitated deployment using Amazon Web Services such as EC2.</li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.linkedin.com/in/fadib/" target="_blank" type="button" class="btn btn-default">Contact me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <a type="button" data-toggle="modal" data-target="#QypsysModal">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h3 class="card-title text-center">Qypsys</h3>
+                                            <h5 class="card-title text-center">Web Developer</h5>
+                                            <h6 class="card-title text-center">​Jul 2017 - Dec 2017</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Modal Qypsys -->
+                            <div class="modal fade" id="QypsysModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h1 class="card-title text-center">Qypsys</h1>
+                                            <h3 class="card-title text-center">Web Developer</h3>
+                                            <h5 class="card-title text-center">Contractor</h5>
+                                            <h6 class="card-title text-center">​July 2017 - December 2017</h6>
+            
+                                            <p class="card-text text-center">
+                                                <ul class="list">
+                                                    <li>Created a landing site marketing the company's IT services.</li>
+                                                    <li>Developed using Express, Angular, Pug, Bootstrap, and Material Bootstrap.
+                                                    </li>
+                                                    <li>Deployed using DigitalOcean.</li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.linkedin.com/in/fadib/" target="_blank" type="button" class="btn btn-default">Contact me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <section id="EducationCard">
+                                <div class="row">
+                                    <h2>Education</h2>
+                                    <hr width="100%">
+                                </div>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">B.S. in Computer Science</h3>
+                                        <h5 class="card-title text-center">University of South Florida</h5>
+                                        <h6 class="card-title text-center">Aug 2014 - May 2018</h6></div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-lg-8">
+                            <section id="ExternalCards">
+                                <div class="row">
+                                    <h2>External Links</h2>
+                                    <hr width="100%">
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <a href="https://github.com/fadfood5" target="_blank">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="flex-center flex-column">
+                                                        <img src='img/github.webp' class='rounded-circle icon'>
+                                                    </div>
+                                                    <h3 class="card-title text-center">Github <i class="fas fa-external-link-square-alt"></i></h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <a href="https://www.linkedin.com/in/fadib/" target="_blank">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="flex-center flex-column">
+                                                        <img src='img/linkedin.webp' class='rounded-circle icon'>
+                                                    </div>
+                                                    <h3 class="card-title text-center">LinkedIn <i class="fas fa-external-link-square-alt"></i></h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </section>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    -->
     </div>
+    
     <!-- SCRIPTS -->
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -239,17 +283,8 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!-- <script type="text/javascript" src="js/fullPage.min.js"></script> -->
-    <!-- <script type='text/javascript'>
-        $(document).ready(function () {
-            if ($(window).width() > 800) {
-                $('#fullpage').fullpage({
-                    anchors: ['about', 'experience', 'projects', 'education', 'contact'],
-                    // sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
-                });
-            }
-        });
-    </script> -->
+    <!-- FontAwesome Icons -->
+    <script src="https://kit.fontawesome.com/9aec41c6ad.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
